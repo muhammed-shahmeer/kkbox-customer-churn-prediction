@@ -11,6 +11,7 @@ The objective is not only to build an accurate predictive model but also to tran
 ## Dataset
 
 This project uses the KKBOX Customer Churn Prediction dataset from Kaggle.
+
 The project combines information from four primary datasets:
 | Dataset              | Description                                                                   |
 | -------------------- | ----------------------------------------------------------------------------- |
@@ -21,3 +22,16 @@ The project combines information from four primary datasets:
 
 
 These datasets were merged through extensive feature engineering to create a customer-level dataset containing behavioral, subscription, payment, and engagement features for machine learning.
+
+## Problem Statement
+
+Customer churn is one of the biggest challenges for subscription-based businesses.
+
+The goal of this project is to build a machine learning model capable of identifying customers who are most likely to cancel their subscription before churn actually occurs.
+
+The resulting predictions enable businesses to:
+
+- Target retention campaigns efficiently
+- Reduce customer acquisition costs
+- Increase customer lifetime value
+- Improve marketing ROI
