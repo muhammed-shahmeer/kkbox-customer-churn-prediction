@@ -61,7 +61,17 @@ The resulting predictions enable businesses to:
 7. Business Intelligence Dashboard
 8. Business Insights
 9. Business Recommendations
-10. SHAP Explainability 
+10. SHAP Explainability
+
+kkbox-customer-churn-prediction/
+│
+├── 01_kkbox_feature_engineering.ipynb
+├── 02_model_training.ipynb
+├── 03_business_intelligence.ipynb
+├── lightgbm_final_model.pkl
+├── KKBOX_Business_Intelligence_Report.pdf
+├── images/
+└── README.md
 
 ## Model Performance
 
@@ -128,7 +138,7 @@ These engineered features transformed raw transactional and behavioral data into
 ### Executive KPI Dashboard
 
 **Note:** The Revenue at Risk metric is an illustrative estimate based on an assumed average monthly subscription value of $149 per customer.
-![Executive KPI Dashboard](images/executive_dashboard.png)
+![Executive KPI Dashboard](images/Executive_KPI_Dashboard.png)
 
 ---
 
@@ -145,3 +155,8 @@ These engineered features transformed raw transactional and behavioral data into
 ### Feature Importance
 ![Feature Importance](images/feature_importance.png)
 
+## Reproducibility
+
+This project uses the **KKBOX Customer Churn Prediction Challenge** dataset from Kaggle.
+
+Due to the dataset size (over 9 GB) and Kaggle competition licensing, the raw data is not included in this repository. To reproduce the project, download the dataset from the Kaggle competition and run the notebooks in numerical order.
