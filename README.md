@@ -123,3 +123,25 @@ These engineered features transformed raw transactional and behavioral data into
 - Detect cancellation patterns early.
 - Personalize retention offers using churn probability scores.
 
+## Sample Visualizations
+
+### Executive KPI Dashboard
+
+**Note:** The Revenue at Risk metric is an illustrative estimate based on an assumed average monthly subscription value of $149 per customer.
+![Executive KPI Dashboard](images/executive_dashboard.png)
+
+---
+
+### Customer Risk Distribution
+![Risk Distribution](images/risk_distribution.png)
+
+---
+
+### SHAP Summary Plot
+![SHAP Summary](images/shap_summary.png)
+
+---
+
+### Feature Importance
+![Feature Importance](images/feature_importance.png)
+
