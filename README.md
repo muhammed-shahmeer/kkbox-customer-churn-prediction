@@ -50,33 +50,76 @@ The resulting predictions enable businesses to:
 - Plotly
 - Matplotlib
 
-## Project Workflow
+## 📊 Project Workflow
 
-Raw Data
-      │
-      ▼
-Data Cleaning
-      │
-      ▼
-Feature Engineering
-      │
-      ▼
-Model Training
-      │
-      ▼
-Hyperparameter Optimization
-      │
-      ▼
-Model Evaluation
-      │
-      ▼
-Business Intelligence
-      │
-      ▼
-Business Insight
-      │
-      ▼
-Business Recommendations
-      │
-      ▼
-SHAP Explainability
+1. Data Collection
+2. Data Cleaning
+3. Feature Engineering
+4. Model Training
+5. Hyperparameter Optimization (Optuna)
+6. Model Evaluation
+7. Business Intelligence Dashboard
+8. Business Insights
+9. Business Recommendations
+10. SHAP Explainability 
+
+## Model Performance
+
+Several machine learning models were developed and evaluated.
+
+| Model               | Purpose                     |
+| ------------------- | --------------------------- |
+| Logistic Regression | Baseline model              |
+| CatBoost            | Gradient boosting benchmark |
+| XGBoost             | Gradient boosting benchmark |
+| **LightGBM**        | **Final production model**  |
+
+The optimized LightGBM model achieved the best predictive performance and was selected for business analysis.
+
+Performance was evaluated using:
+
+- ROC-AUC
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+
+## Feature Engineering Highlights
+
+The project engineers customer-level features from subscription transactions, membership records, and user listening logs, including:
+
+- Customer tenure
+- Average membership duration
+- Renewal frequency and consistency
+- Payment and discount trends
+- Cancellation behavior
+- Subscription pricing history
+- Days since last activity
+- Average listening time per day
+- Average plays per day
+- Music listening behavior (completion rate, skip rate, and unique song ratio)
+
+These engineered features transformed raw transactional and behavioral data into meaningful predictors that substantially improved the performance of the churn prediction models.
+
+## Key Business Insights
+
+### Major findings include:
+
+- Customer behavior is a stronger predictor of churn than demographic information.
+- Membership duration is the strongest indicator of customer loyalty.
+- Recent payment activity strongly influences churn risk.
+- Customers approaching subscription expiration have significantly higher churn probability.
+- Frequent cancellations and inconsistent renewals are major warning signals.
+- Customer engagement is one of the most valuable retention indicators.
+
+## Business Recommendations
+
+### Based on the analysis, businesses should:
+
+- Prioritize retention campaigns for high-risk customers.
+- Offer renewal incentives before subscription expiration.
+- Monitor customers with declining engagement.
+- Encourage Auto-Renew adoption.
+- Detect cancellation patterns early.
+- Personalize retention offers using churn probability scores.
+
