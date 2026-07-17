@@ -35,3 +35,48 @@ The resulting predictions enable businesses to:
 - Reduce customer acquisition costs
 - Increase customer lifetime value
 - Improve marketing ROI
+
+## Technologies Used
+
+- Python
+- Polars
+- Pandas
+- Scikit-learn
+- LightGBM
+- CatBoost
+- XGBoost
+- Optuna
+- SHAP
+- Plotly
+- Matplotlib
+
+## Project Workflow
+
+Raw Data
+      │
+      ▼
+Data Cleaning
+      │
+      ▼
+Feature Engineering
+      │
+      ▼
+Model Training
+      │
+      ▼
+Hyperparameter Optimization
+      │
+      ▼
+Model Evaluation
+      │
+      ▼
+Business Intelligence
+      │
+      ▼
+Business Insight
+      │
+      ▼
+Business Recommendations
+      │
+      ▼
+SHAP Explainability
