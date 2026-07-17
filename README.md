@@ -63,6 +63,9 @@ The resulting predictions enable businesses to:
 9. Business Recommendations
 10. SHAP Explainability
 
+## 📁 Repository Structure
+
+```text
 kkbox-customer-churn-prediction/
 │
 ├── 01_kkbox_feature_engineering.ipynb
@@ -71,8 +74,12 @@ kkbox-customer-churn-prediction/
 ├── lightgbm_final_model.pkl
 ├── KKBOX_Business_Intelligence_Report.pdf
 ├── images/
+│   ├── executive_dashboard.png
+│   ├── feature_importance.png
+│   ├── risk_distribution.png
+│   └── shap_summary.png
 └── README.md
-
+```
 ## Model Performance
 
 Several machine learning models were developed and evaluated.
